@@ -19,7 +19,8 @@ namespace CustomersManagementSystem.Windows
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("You clicked the butotn"); 
+            MessageBox.Show("You clicked the butotn");
+            MessageBox.Show("hello world!");
         }
     }
 }

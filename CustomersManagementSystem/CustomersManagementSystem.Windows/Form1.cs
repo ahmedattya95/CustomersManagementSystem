@@ -12,6 +12,7 @@ namespace CustomersManagementSystem.Windows
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -19,8 +20,10 @@ namespace CustomersManagementSystem.Windows
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("You have entered in the textbox: " + textBox1.Text); 
             MessageBox.Show("You clicked the butotn");
             MessageBox.Show("hello world!");
         }
+
     }
 }
